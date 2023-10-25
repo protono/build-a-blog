@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d2f335b1-ee4d-46ed-b4e7-57eb52b0d98d/deploy-status)](https://app.netlify.com/sites/build-a-blog-protono/deploys)
+
 # Astro Starter Kit: Minimal
 
 ```sh
