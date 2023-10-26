@@ -1,18 +1,15 @@
 ---
+layout: '../../layouts/MarkdownPostLayout.astro'
 title: 'Qui ipsum fugiat aliquip elit.'
 pubDate: 10/25/2023
 description: 'Exercitation minim veniam dolor ad et adipisicing Lorem.'
 author: 'Katelynn Medhurst'
 image:
-  url: 'https://docs.astro.build/assets/full-logo-light.png'
+  url: 'https://docs.astro.build/assets/full-logo-dark.png'
   alt: 'The full Astro logo.'
 tags: ['astro', 'blogging', 'learning']
 ---
 # My Second Blog Post
-
-Published on 10/25/2023
-
-Aliqua non eiusmod cillum commodo et dolore cupidatat occaecat. Irure culpa irure eu.
 
 ## What I've accomplished
 

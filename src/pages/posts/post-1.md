@@ -1,18 +1,15 @@
 ---
+layout: '../../layouts/MarkdownPostLayout.astro'
 title: 'Aute incididunt aliquip pariatur ea nulla fugiat reprehenderit esse.'
 pubDate: 10/25/2023
 description: 'Mollit tempor proident laborum ut magna qui ad irure cupidatat in Lorem sunt.'
 author: 'Katelynn Medhurst'
 image:
-  url: 'https://docs.astro.build/assets/full-logo-light.png'
+  url: 'https://docs.astro.build/assets/full-logo-dark.png'
   alt: 'The full Astro logo.'
 tags: ['astro', 'blogging', 'learning']
 ---
 # My First Blog Post
-
-Published on 10/25/2023
-
-Excepteur ad et elit eu eiusmod. Ex ut eiusmod exercitation eiusmod aliquip elit nisi esse eu cupidatat veniam commodo mollit.
 
 ## What I've accomplished
 
