@@ -1,18 +1,15 @@
 ---
-import type { displayPartsToString } from 'typescript'
-import Social from "./Social.astro"
-const platform = "github";
-const username = "protono";
+import Social from "./Social.astro";
 ---
 
 <footer>
-    <Social platform="github" username="protono" />
-    <Social platform="instagram" username="sylvainrpelissier" />
+  <Social platform="github" username="protono" />
+  <Social platform="instagram" username="sylvainrpelissier" />
 </footer>
 <style>
   footer {
     display: flex;
-    gap:1rem;
-    margin-top:2rem;
+    gap: 1rem;
+    margin-top: 2rem;
   }
 </style>
