@@ -7,7 +7,7 @@ author: 'Katelynn Medhurst'
 image:
   url: 'https://docs.astro.build/assets/full-logo-dark.png'
   alt: 'The full Astro logo.'
-tags: ['astro', 'blogging', 'learning']
+tags: ['blogging', 'learning']
 ---
 # My First Blog Post
 
