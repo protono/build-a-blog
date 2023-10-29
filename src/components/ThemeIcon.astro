@@ -37,31 +37,48 @@
   }
 </style>
 
-<script is:inline>
-const theme = (() => {
-  if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-    return localStorage.getItem("theme")
-  }
+<!-- <script is:inline> -->
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const theme = (() => {
+      if (
+        typeof localStorage !== "undefined" &&
+        localStorage.getItem("theme")
+      ) {
+        return localStorage.getItem("theme");
+      }
 
-  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    return "dark"
-  }
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        return "dark";
+      }
 
-  return "light"
-})()
+      return "light";
+    })();
 
-if (theme === "dark") document.documentElement.classList.add("dark")
+    if (theme === "dark") document.documentElement.classList.add("dark");
 
-window.localStorage.setItem("theme", theme)
+    window.localStorage.setItem("theme", theme!);
 
-const handleClick = () => {
-  const classes = document.documentElement.classList
+    const handleClick = () => {
+      const classes = document.documentElement.classList;
 
-  classes.toggle("dark")
+      classes.toggle("dark");
 
-  const isDark = classes.contains("dark")
-  localStorage.setItem("theme", isDark ? "dark" : "light")
-}
+      const isDark = classes.contains("dark");
 
-document.getElementById("themeToggle").addEventListener("click", handleClick)
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    };
+
+    document
+      .getElementById("themeToggle")!
+      .addEventListener("click", handleClick);
+  });
+</script>
+
+<script>
+  document.addEventListener("astro:after-swap", () => {
+    localStorage.theme === "dark"
+      ? document.documentElement.classList.add("dark")
+      : document.documentElement.classList.add("light");
+  });
 </script>
