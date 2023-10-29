@@ -1,7 +1,7 @@
 ---
-layout: '../../layouts/MarkdownPostLayout.astro'
+# layout: '../../layouts/MarkdownPostLayout.astro'
 title: 'Qui ipsum fugiat aliquip elit.'
-pubDate: 10/25/2023
+pubDate: 2023-10-25
 description: 'Exercitation minim veniam dolor ad et adipisicing Lorem.'
 author: 'Katelynn Medhurst'
 image:

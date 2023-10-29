@@ -1,7 +1,7 @@
 ---
-layout: '../../layouts/MarkdownPostLayout.astro'
+# layout: '../../layouts/MarkdownPostLayout.astro'
 title: 'Elit magna irure magna ipsum minim sit duis veniam ullamco aute commodo laborum nostrud.'
-pubDate: 10/25/2023
+pubDate: 2023-10-25
 description: 'Do consectetur ut magna in dolore deserunt quis cillum amet deserunt aliquip incididunt.'
 author: 'Katelynn Medhurst'
 image:

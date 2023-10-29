@@ -1,7 +1,7 @@
 ---
-layout: '../../layouts/MarkdownPostLayout.astro'
+# layout: '../../layouts/MarkdownPostLayout.astro'
 title: 'My Fourth Blog Post'
-pubDate: 10/26/2023
+pubDate: 2023-10-26
 description: 'Mollit reprehenderit et nisi Lorem adipisicing laborum ex reprehenderit amet enim aliqua do voluptate pariatur sunt.'
 author: 'Katelynn Medhurst'
 image:

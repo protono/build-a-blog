@@ -1,7 +1,8 @@
 ---
-layout: '../../layouts/MarkdownPostLayout.astro'
+# layout: '../../layouts/MarkdownPostLayout.astro'
 title: 'Aute incididunt aliquip pariatur ea nulla fugiat reprehenderit esse.'
-pubDate: 10/25/2023
+# pubDate: 10/25/2023
+pubDate: 2023-10-25
 description: 'Mollit tempor proident laborum ut magna qui ad irure cupidatat in Lorem sunt.'
 author: 'Katelynn Medhurst'
 image:

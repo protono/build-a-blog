@@ -1,8 +1,10 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
-const allPosts = await Astro.glob("../pages/posts/*.md");
-const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
+// const allPosts = await Astro.glob("../pages/posts/*.md");
+const allPosts = await getCollection("posts");
+const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 ---
 
 <BaseLayout
@@ -10,7 +12,7 @@ const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
   url={frontmatter.url}
   title={frontmatter.title}
 >
-  <p>Published on {frontmatter.pubDate.slice(0, 10)}</p>
+  <p>Published on {frontmatter.pubDate.toString().slice(0, 10)}</p>
   <p><em>{frontmatter.description}</em></p>
   <p>Written by {frontmatter.author}</p>
   <img
@@ -30,6 +32,7 @@ const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
   </div>
   <slot />
 </BaseLayout>
+
 <style>
   a {
     color: #00539f;
