@@ -7,8 +7,9 @@ author: 'Katelynn Medhurst'
 image:
   url: 'https://docs.astro.build/assets/full-logo-dark.png'
   alt: 'The full Astro logo.'
-tags: ['astro',  'learning']
+tags: ['astro', 'learning']
 ---
+
 ## My Third Blog Post
 
 ### What I've accomplished
