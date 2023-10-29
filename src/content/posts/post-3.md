@@ -9,14 +9,14 @@ image:
   alt: 'The full Astro logo.'
 tags: ['astro',  'learning']
 ---
-# My Third Blog Post
+## My Third Blog Post
 
-## What I've accomplished
+### What I've accomplished
 
 1. **Installing Astro**: Incididunt nulla qui culpa elit est ea non consectetur est.
 2. **Making Pages**: Ipsum aliqua occaecat qui exercitation aute excepteur ad pariatur eu ipsum cupidatat id consectetur officia.
 3. **Making Blog Posts**: Dolore commodo esse est cillum mollit.
 
-## What's next
+### What's next
 
 Esse enim deserunt ad elit ea non enim dolore. Dolor dolor nisi voluptate. Ipsum dolore nisi consectetur non enim voluptate in eiusmod ea excepteur laboris.

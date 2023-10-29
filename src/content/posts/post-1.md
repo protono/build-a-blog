@@ -10,14 +10,14 @@ image:
   alt: 'The full Astro logo.'
 tags: ['blogging', 'learning']
 ---
-# My First Blog Post
+## My First Blog Post
 
-## What I've accomplished
+### What I've accomplished
 
 1. **Installing Astro**: Nisi exercitation minim cupidatat velit occaecat id laborum duis labore nulla elit.
 2. **Making Pages**: Dolor ea commodo mollit laboris consectetur anim ut reprehenderit incididunt sint enim ullamco laboris.
 3. **Making Blog Posts**: Magna non magna excepteur sint ullamco anim reprehenderit ullamco aliquip incididunt officia voluptate enim ea.
 
-## What's next
+### What's next
 
 Laborum ut ullamco culpa consectetur velit eu pariatur amet sunt cillum consequat. Sunt aliquip in ullamco laborum proident id amet irure qui Lorem et et reprehenderit culpa exercitation. Id elit veniam aliqua ipsum dolor officia deserunt dolor.

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "./BaseLayout.astro";
+import { fade } from "astro:transitions";
 const { frontmatter } = Astro.props;
 // const allPosts = await Astro.glob("../pages/posts/*.md");
 const allPosts = await getCollection("posts");
@@ -20,6 +21,7 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
     alt={frontmatter.image.alt}
     width="150"
     height="40"
+    transition:animate={fade({ duration: "1s" })}
   />
   <div class="tags">
     {

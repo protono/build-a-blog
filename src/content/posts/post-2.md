@@ -9,14 +9,14 @@ image:
   alt: 'The full Astro logo.'
 tags: ['astro', 'blogging', 'learning']
 ---
-# My Second Blog Post
+## My Second Blog Post
 
-## What I've accomplished
+### What I've accomplished
 
 1. **Installing Astro**: Irure amet officia consequat dolor est.
 2. **Making Pages**: Id ipsum incididunt proident dolore eu tempor ipsum excepteur reprehenderit quis ullamco nisi.
 3. **Making Blog Posts**: Proident nostrud cupidatat irure do occaecat cillum sit officia occaecat fugiat incididunt.
 
-## What's next
+### What's next
 
 Enim dolore commodo reprehenderit sit ad laboris. Duis laboris in cillum aliqua. Deserunt excepteur cupidatat adipisicing proident tempor voluptate id proident.
